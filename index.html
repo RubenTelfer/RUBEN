@@ -1,14 +1,92 @@
-<header>
-</header>
+<html>
+   <head>
+    <link href="https://rubentelfer.com">
+    <title>RUBEN!</title>
+    <style>
+        .main {
+            width: 1500px;
+            height: 400px;
+            font-family: "ginto";
+            position: fixed;
+            align-items: center;
+            background-color: #2F3137;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+        }
 
-<main>
+        .parent {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
 
-</main>
+        .description {
+            font-family: "ginto-thin";
+            color: rgba(255, 255, 255, 0.698);
+            font-size: 18;
+        }
 
-<!--Main layout-->
+        @font-face {
+            font-family: "ginto";
+            font-display: swap;
+            font-style: normal;
+            src: url(/ginto.woff2) format("woff2")
+        }
 
-<!--Footer-->
+        @font-face {
+            font-family: "ginto-thin";
+            font-display: swap;
+            font-style: normal;
+            src: url(/gintothin.woff2) format("woff2")
+        }
 
-<footer>
+        h1 {
+            font-family: "ginto";
+            color: white;
+            font-size: 25;
+        }
 
-</footer>
+        body {
+            background-color: 	#282b30;
+        }
+
+        .text-red {
+            font-family: "ginto-thin";
+            color: #ED4245;
+            font-size: 18;
+        }
+
+        .text-blue {
+            font-family: "ginto-thin";
+            color: #5865F2;
+            font-size: 18;
+        }
+
+        .text-yellow {
+            font-family: "ginto-thin";
+            color: #FEE75C;
+            font-size: 18;
+        }
+    </style>
+   </head>
+
+   <body>
+    <div class="parent">
+        <div class="main">
+            <img src="/3c3772c21d0fb394c563b6176778ec43.svg" alt="" width="168" height="156">
+            <h1>Hey, I'm Ruben!</h1>
+            <div class="description">I'm a programmer with over 2 years of experience, my commissions are currently <span class="text-red">closed</span>, due to my recent employment with <span class="text-blue">MetaMethod</span>.</div>
+            <p></p>
+            <div class="description">I'm experienced with <span class="text-yellow">LUAU</span>, the roblox programming language, and <span class="text-yellow">JavaScript</span>. I have been working with these languages for over 2 years and still use them for my work.</div>
+            <p></p>
+           <div class="description">I have worked on Roblox games such as, <span>Site-006</span>, <span>The Elysian Project</span>, <span>Monarch Outpost 61</span>, Maethor's Jurassic World and more.</div>
+        </div>
+    </div>
+   </body>
+</html>
